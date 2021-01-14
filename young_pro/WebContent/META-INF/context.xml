@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Resource 
+	name = "jdbc/young" 
+	auth = "Container"
+	type = "javax.sql.DataSource"
+	username = "shjaewon"
+	password = "twd9696^^"
+	driverClassName = "com.mysql.cj.jdbc.Driver"
+	factory = "org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"	 
+	url = "jdbc:mysql://localhost/young?useUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=Asia/Seoul"
+	maxActive = "500"
+	maxIdle = "100"
+			
+	/>
